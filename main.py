@@ -34,7 +34,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration - Using environment variables for security
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '7526389597:AAFkqDJ_joxs9rQw7h3khgeWMaxiQt')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '7526389597:AAHixmzjTvtFDC8uuSWGQbnECYHnyFV_qD4')
 ADMIN_USER_ID = int(os.environ.get('ADMIN_USER_ID', '6645404238'))
 BASE_URL = os.environ.get('BASE_URL', 'https://doubtsolved.netlify.app/papers')
 
